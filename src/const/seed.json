@@ -1,0 +1,2272 @@
+[
+  {
+    "user_invitation": [
+      {
+        "id": "0acefad6-20b1-4a08-8c08-0fe1ad0ac46c",
+        "created_at": "2023-09-05T11:38:47.969Z",
+        "updated_at": "2023-09-05T19:41:28.427Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "c1c7a2ba-951b-4be0-87c5-d228d115972b",
+        "created_at": "2023-09-05T04:59:21.016Z",
+        "updated_at": "2023-09-05T09:42:09.284Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "8a1a775e-bde8-4d67-8912-0b0ba724eb94",
+        "created_at": "2023-09-05T17:56:09.241Z",
+        "updated_at": "2023-09-05T13:06:05.678Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "ce49b836-413b-49e4-88ad-14dd43874eee",
+        "created_at": "2023-09-05T18:09:52.218Z",
+        "updated_at": "2023-09-04T21:46:01.368Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "aa156e30-c9f1-45cd-bff7-ae07792c67e6",
+        "created_at": "2023-09-05T09:02:47.429Z",
+        "updated_at": "2023-09-05T18:03:58.330Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "28d3fbb9-3062-4bcf-af59-81521ad21317",
+        "bank_name": "ABC Bank",
+        "account_number": "1234567890",
+        "username": "john.doe",
+        "password": "password1",
+        "created_at": "2023-09-05T11:43:47.651Z",
+        "updated_at": "2023-09-05T13:55:36.437Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "70a02c7d-6728-49cd-bbcf-2dd031e168ea",
+        "bank_name": "XYZ Bank",
+        "account_number": "0987654321",
+        "username": "jane.smith",
+        "password": "password2",
+        "created_at": "2023-09-04T23:40:38.497Z",
+        "updated_at": "2023-09-05T17:15:41.870Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "b626810b-c72f-4fd8-9c59-274a7b084875",
+        "bank_name": "PQR Bank",
+        "account_number": "5678901234",
+        "username": "michael.brown",
+        "password": "password3",
+        "created_at": "2023-09-05T09:46:08.614Z",
+        "updated_at": "2023-09-04T21:04:33.604Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "1cc0ae8f-f8c4-4f24-bf5c-0da483e1cd03",
+        "bank_name": "DEF Bank",
+        "account_number": "4321098765",
+        "username": "sarah.jones",
+        "password": "password4",
+        "created_at": "2023-09-05T17:56:16.570Z",
+        "updated_at": "2023-09-05T20:10:23.300Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "51692786-8774-4d20-902a-d31f90dee8a3",
+        "bank_name": "GHI Bank",
+        "account_number": "9876543210",
+        "username": "robert.wilson",
+        "password": "password5",
+        "created_at": "2023-09-05T19:56:34.184Z",
+        "updated_at": "2023-09-05T12:26:48.107Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "35c6b362-03b8-4ee5-8d49-f67c9a7facf6",
+        "transaction_amount": 61796,
+        "transaction_date": "2023-09-05T14:05:08.206Z",
+        "created_at": "2023-09-05T20:20:33.622Z",
+        "updated_at": "2023-09-05T13:18:43.490Z",
+        "bank_account_id": "b626810b-c72f-4fd8-9c59-274a7b084875"
+      },
+      {
+        "id": "cb625a31-8142-493b-8429-eb4edcfe94e7",
+        "transaction_amount": 89542,
+        "transaction_date": "2023-09-05T03:47:56.258Z",
+        "created_at": "2023-09-05T11:56:10.723Z",
+        "updated_at": "2023-09-05T00:17:48.424Z",
+        "bank_account_id": "28d3fbb9-3062-4bcf-af59-81521ad21317"
+      },
+      {
+        "id": "a9d2e7ce-7b91-48cc-9307-c9f3b1dac5a7",
+        "transaction_amount": 43991,
+        "transaction_date": "2023-09-04T20:53:35.089Z",
+        "created_at": "2023-09-05T05:50:29.776Z",
+        "updated_at": "2023-09-05T02:26:25.336Z",
+        "bank_account_id": "b626810b-c72f-4fd8-9c59-274a7b084875"
+      },
+      {
+        "id": "a3b9a7d4-8de6-4117-9bd0-8bb8dfaec556",
+        "transaction_amount": 43822,
+        "transaction_date": "2023-09-04T21:02:07.956Z",
+        "created_at": "2023-09-05T08:29:39.777Z",
+        "updated_at": "2023-09-05T07:39:45.644Z",
+        "bank_account_id": "70a02c7d-6728-49cd-bbcf-2dd031e168ea"
+      },
+      {
+        "id": "3366e276-fdd5-4020-ad31-6132e44acfd5",
+        "transaction_amount": 11397,
+        "transaction_date": "2023-09-05T14:06:38.684Z",
+        "created_at": "2023-09-05T15:32:24.368Z",
+        "updated_at": "2023-09-05T07:59:07.487Z",
+        "bank_account_id": "b626810b-c72f-4fd8-9c59-274a7b084875"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "e96d4898-16bb-4473-9cea-c1283f16b329",
+        "balance": 88407,
+        "balance_date": "2023-09-05T13:52:29.657Z",
+        "created_at": "2023-09-05T10:09:08.703Z",
+        "updated_at": "2023-09-04T23:37:28.041Z",
+        "bank_account_id": "1cc0ae8f-f8c4-4f24-bf5c-0da483e1cd03"
+      },
+      {
+        "id": "a48c256e-ce35-4996-8da2-32c16c79b45e",
+        "balance": 46746,
+        "balance_date": "2023-09-04T21:53:42.412Z",
+        "created_at": "2023-09-05T09:58:34.725Z",
+        "updated_at": "2023-09-04T23:21:21.561Z",
+        "bank_account_id": "28d3fbb9-3062-4bcf-af59-81521ad21317"
+      },
+      {
+        "id": "7ed87bdf-e5ea-453d-aca5-225dc2a300a9",
+        "balance": 6711,
+        "balance_date": "2023-09-04T22:25:50.313Z",
+        "created_at": "2023-09-05T17:14:26.035Z",
+        "updated_at": "2023-09-05T01:05:01.920Z",
+        "bank_account_id": "28d3fbb9-3062-4bcf-af59-81521ad21317"
+      },
+      {
+        "id": "d3a3c78f-9891-4fab-9203-71b97bd83565",
+        "balance": 7470,
+        "balance_date": "2023-09-05T18:51:35.114Z",
+        "created_at": "2023-09-05T15:30:15.222Z",
+        "updated_at": "2023-09-05T01:50:50.377Z",
+        "bank_account_id": "1cc0ae8f-f8c4-4f24-bf5c-0da483e1cd03"
+      },
+      {
+        "id": "e26d6b64-4aa4-475a-a9cf-fc562298df63",
+        "balance": 63817,
+        "balance_date": "2023-09-05T10:13:34.142Z",
+        "created_at": "2023-09-05T09:18:31.192Z",
+        "updated_at": "2023-09-05T16:45:14.576Z",
+        "bank_account_id": "28d3fbb9-3062-4bcf-af59-81521ad21317"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "43cfcc67-a041-43ec-baf0-c04aa3ea40d9",
+        "email": "Buddy_Mraz@hotmail.com",
+        "firstName": "Lavonne",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/157.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bebf0f4-3265-499f-8edf-67239a2d2808",
+        "email": "Talia_Williamson@hotmail.com",
+        "firstName": "Ayana",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2969d9b-b628-4688-8f24-d3bffc658620",
+        "email": "Creola.Tillman90@gmail.com",
+        "firstName": "Trevion",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83473127",
+        "tenantId": null
+      },
+      {
+        "reference": "95479c9e-bcf3-41c6-8e0c-8023fb22a920",
+        "email": "Bridie_Gibson79@gmail.com",
+        "firstName": "Jacques",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64802e0b-0e86-4ec8-9528-23cdb04e16b9",
+        "email": "Osbaldo95@yahoo.com",
+        "firstName": "Destany",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89869938",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "40010da1-1548-4e04-8b82-deafb588760c",
+        "created_at": "2023-09-05T12:37:50.995Z",
+        "updated_at": "2023-09-05T06:45:55.407Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "083df09d-6ea3-4844-8e02-561e075470e0",
+        "created_at": "2023-09-05T16:56:39.837Z",
+        "updated_at": "2023-09-05T06:20:50.354Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "21f91311-c1d0-4a33-b05d-58a17bc4d0af",
+        "created_at": "2023-09-04T21:59:59.218Z",
+        "updated_at": "2023-09-05T10:22:50.091Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "09d3895d-4027-4e99-b3e0-e5e84091abaf",
+        "created_at": "2023-09-05T02:08:12.784Z",
+        "updated_at": "2023-09-05T17:54:48.789Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "ff339490-b3b6-4764-8e50-396de3ce07b4",
+        "created_at": "2023-09-05T04:33:17.525Z",
+        "updated_at": "2023-09-05T07:21:01.638Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "d70c27d5-2471-4b82-bc87-0d69d64bd630",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "username": "john.doe",
+        "password": "P@ssw0rd",
+        "created_at": "2023-09-05T00:29:32.664Z",
+        "updated_at": "2023-09-05T12:05:06.097Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "8cafc5d6-fbea-4a9c-9106-eba74674a26f",
+        "bank_name": "Chase Bank",
+        "account_number": "0987654321",
+        "username": "jane.smith",
+        "password": "Secur3P@ss",
+        "created_at": "2023-09-05T08:01:10.031Z",
+        "updated_at": "2023-09-04T23:40:23.105Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "f49cd6df-f49d-4bdd-b7da-0223cb47ca7c",
+        "bank_name": "Wells Fargo",
+        "account_number": "2468135790",
+        "username": "michael.brown",
+        "password": "Str0ngP@ss",
+        "created_at": "2023-09-05T05:52:16.192Z",
+        "updated_at": "2023-09-05T13:12:01.311Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "e513b9e0-9961-4491-ae3c-8afd7a3b9572",
+        "bank_name": "Citibank",
+        "account_number": "1357924680",
+        "username": "sarah.jones",
+        "password": "P@ssw0rd123",
+        "created_at": "2023-09-05T07:31:39.817Z",
+        "updated_at": "2023-09-05T12:18:07.415Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "7215c5ff-c960-499c-ad16-dd993b101c5d",
+        "bank_name": "US Bank",
+        "account_number": "9876543210",
+        "username": "david.wilson",
+        "password": "P@ssw0rd!",
+        "created_at": "2023-09-05T09:54:48.986Z",
+        "updated_at": "2023-09-05T17:26:14.123Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "f08dd6c3-7a6d-480d-b37a-9636b182d968",
+        "transaction_amount": 13348,
+        "transaction_date": "2023-09-05T13:31:58.019Z",
+        "created_at": "2023-09-05T13:01:55.375Z",
+        "updated_at": "2023-09-05T10:50:08.320Z",
+        "bank_account_id": "7215c5ff-c960-499c-ad16-dd993b101c5d"
+      },
+      {
+        "id": "0c1c27cd-c63d-4b67-9709-26045c7055a1",
+        "transaction_amount": 81488,
+        "transaction_date": "2023-09-05T14:35:38.187Z",
+        "created_at": "2023-09-05T01:05:41.879Z",
+        "updated_at": "2023-09-05T08:57:14.944Z",
+        "bank_account_id": "8cafc5d6-fbea-4a9c-9106-eba74674a26f"
+      },
+      {
+        "id": "67c0d2eb-1e9d-4ca6-a7dd-078e84c8f436",
+        "transaction_amount": 665,
+        "transaction_date": "2023-09-05T06:43:01.057Z",
+        "created_at": "2023-09-05T02:41:01.437Z",
+        "updated_at": "2023-09-05T07:36:59.480Z",
+        "bank_account_id": "d70c27d5-2471-4b82-bc87-0d69d64bd630"
+      },
+      {
+        "id": "0cb028b1-661f-450d-87cb-4cb76680d6d5",
+        "transaction_amount": 43986,
+        "transaction_date": "2023-09-05T17:10:01.093Z",
+        "created_at": "2023-09-05T09:12:28.148Z",
+        "updated_at": "2023-09-05T16:53:17.655Z",
+        "bank_account_id": "f49cd6df-f49d-4bdd-b7da-0223cb47ca7c"
+      },
+      {
+        "id": "0c66056d-34c3-4f40-ad16-e0d5e058d4cf",
+        "transaction_amount": 51635,
+        "transaction_date": "2023-09-05T18:41:35.948Z",
+        "created_at": "2023-09-04T23:23:03.113Z",
+        "updated_at": "2023-09-04T22:04:58.264Z",
+        "bank_account_id": "e513b9e0-9961-4491-ae3c-8afd7a3b9572"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "dc5b5072-7d59-47c1-93d0-76bf3b7f7e61",
+        "balance": 69720,
+        "balance_date": "2023-09-05T10:08:28.457Z",
+        "created_at": "2023-09-04T21:32:40.955Z",
+        "updated_at": "2023-09-05T13:48:59.040Z",
+        "bank_account_id": "e513b9e0-9961-4491-ae3c-8afd7a3b9572"
+      },
+      {
+        "id": "97797d2f-c9d9-424c-96ff-e41991fae107",
+        "balance": 83269,
+        "balance_date": "2023-09-05T13:06:43.931Z",
+        "created_at": "2023-09-05T01:23:41.416Z",
+        "updated_at": "2023-09-05T01:52:03.913Z",
+        "bank_account_id": "f49cd6df-f49d-4bdd-b7da-0223cb47ca7c"
+      },
+      {
+        "id": "8de6c439-d388-4996-9d8b-28050795d132",
+        "balance": 63939,
+        "balance_date": "2023-09-05T12:54:49.571Z",
+        "created_at": "2023-09-05T14:54:29.606Z",
+        "updated_at": "2023-09-05T00:55:47.233Z",
+        "bank_account_id": "f49cd6df-f49d-4bdd-b7da-0223cb47ca7c"
+      },
+      {
+        "id": "14876afd-6945-4db1-95dc-f2bad60a238f",
+        "balance": 5289,
+        "balance_date": "2023-09-05T15:24:45.474Z",
+        "created_at": "2023-09-04T23:31:36.279Z",
+        "updated_at": "2023-09-05T00:50:07.599Z",
+        "bank_account_id": "d70c27d5-2471-4b82-bc87-0d69d64bd630"
+      },
+      {
+        "id": "e3f2eb2a-8e63-437c-bdeb-5cf59a1e3e65",
+        "balance": 49199,
+        "balance_date": "2023-09-04T21:54:44.873Z",
+        "created_at": "2023-09-04T23:09:30.971Z",
+        "updated_at": "2023-09-05T18:23:03.375Z",
+        "bank_account_id": "7215c5ff-c960-499c-ad16-dd993b101c5d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "93977908-eb3c-41ce-8d24-3a06de6fd06f",
+        "email": "Cortney.Hamill@yahoo.com",
+        "firstName": "Therese",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28479362",
+        "tenantId": null
+      },
+      {
+        "reference": "2a9e2132-489f-4694-9d0c-2a36b7beac9b",
+        "email": "Queen56@hotmail.com",
+        "firstName": "Margot",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "48ee9db9-850e-4ad3-b985-82cd698cede7",
+        "email": "Hallie_Turcotte@yahoo.com",
+        "firstName": "Chloe",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55862139",
+        "tenantId": null
+      },
+      {
+        "reference": "5d730648-4bee-4806-8b0c-6f8eaea37866",
+        "email": "Brigitte_Ratke91@gmail.com",
+        "firstName": "Beatrice",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/614.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "487a655c-bd19-4757-8d47-370499377b85",
+        "email": "Albin_Jacobs92@hotmail.com",
+        "firstName": "Ardith",
+        "lastName": "Weissnat-Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/164.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "71be0376-917e-470b-a112-cb3f750f1c6f",
+        "created_at": "2023-09-05T14:18:17.156Z",
+        "updated_at": "2023-09-05T18:23:09.159Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "db691485-74bb-45f9-b4ba-aab6723a59f3",
+        "created_at": "2023-09-05T13:11:16.746Z",
+        "updated_at": "2023-09-05T18:18:31.262Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "fca25622-918c-41e0-b6a0-12bbd8926f84",
+        "created_at": "2023-09-05T10:17:02.801Z",
+        "updated_at": "2023-09-05T19:31:58.142Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "98c5b9cb-1ce4-4828-a08f-61ee9309fb8f",
+        "created_at": "2023-09-05T01:08:38.803Z",
+        "updated_at": "2023-09-04T22:41:02.803Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "8fc7c79e-8aeb-4922-b8ba-f416143b3ef1",
+        "created_at": "2023-09-05T03:47:27.728Z",
+        "updated_at": "2023-09-05T01:59:10.886Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "6e9553c4-29d5-4386-aebd-a7e0bb081096",
+        "bank_name": "ABC Bank",
+        "account_number": "1234567890",
+        "username": "john.doe",
+        "password": "pass123",
+        "created_at": "2023-09-05T11:48:40.933Z",
+        "updated_at": "2023-09-05T10:22:01.777Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "6c00b7c2-7faa-4093-8115-ad98584ada69",
+        "bank_name": "XYZ Bank",
+        "account_number": "0987654321",
+        "username": "jane.smith",
+        "password": "secure456",
+        "created_at": "2023-09-05T12:31:27.572Z",
+        "updated_at": "2023-09-05T06:41:49.155Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "62d451ad-4321-4f10-a333-fd563887f6f1",
+        "bank_name": "PQR Bank",
+        "account_number": "9876543210",
+        "username": "michael.brown",
+        "password": "secret789",
+        "created_at": "2023-09-04T21:26:18.632Z",
+        "updated_at": "2023-09-05T00:31:11.075Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "c8432e9a-f828-433a-83ed-31d47537d3d3",
+        "bank_name": "DEF Bank",
+        "account_number": "0123456789",
+        "username": "sarah.jones",
+        "password": "password123",
+        "created_at": "2023-09-05T00:57:24.578Z",
+        "updated_at": "2023-09-05T11:01:39.887Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "149f18c7-9824-4417-a66f-32226aa2d64b",
+        "bank_name": "GHI Bank",
+        "account_number": "5432109876",
+        "username": "david.wilson",
+        "password": "12345678",
+        "created_at": "2023-09-05T18:53:40.757Z",
+        "updated_at": "2023-09-05T09:59:56.239Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "68be8e74-0f7a-4422-b8e5-835065c2d02b",
+        "transaction_amount": 2006,
+        "transaction_date": "2023-09-05T01:59:50.468Z",
+        "created_at": "2023-09-05T04:12:12.901Z",
+        "updated_at": "2023-09-05T16:45:34.421Z",
+        "bank_account_id": "62d451ad-4321-4f10-a333-fd563887f6f1"
+      },
+      {
+        "id": "2793f011-3525-4b71-b737-fb2963c2277d",
+        "transaction_amount": 73218,
+        "transaction_date": "2023-09-05T12:21:15.976Z",
+        "created_at": "2023-09-05T04:10:17.032Z",
+        "updated_at": "2023-09-04T23:25:15.706Z",
+        "bank_account_id": "149f18c7-9824-4417-a66f-32226aa2d64b"
+      },
+      {
+        "id": "44f22493-a471-498c-85d5-ec3243d571bc",
+        "transaction_amount": 35558,
+        "transaction_date": "2023-09-05T13:19:04.827Z",
+        "created_at": "2023-09-05T15:59:15.563Z",
+        "updated_at": "2023-09-05T07:45:16.772Z",
+        "bank_account_id": "c8432e9a-f828-433a-83ed-31d47537d3d3"
+      },
+      {
+        "id": "4b35e3d9-5396-4828-8cb1-b421b3d2e1fc",
+        "transaction_amount": 3006,
+        "transaction_date": "2023-09-04T23:57:27.384Z",
+        "created_at": "2023-09-05T00:16:20.759Z",
+        "updated_at": "2023-09-05T17:16:18.035Z",
+        "bank_account_id": "c8432e9a-f828-433a-83ed-31d47537d3d3"
+      },
+      {
+        "id": "0763fcbc-e513-446a-9d0f-86be69d261f0",
+        "transaction_amount": 53492,
+        "transaction_date": "2023-09-05T13:11:25.512Z",
+        "created_at": "2023-09-04T23:05:20.533Z",
+        "updated_at": "2023-09-05T08:20:02.445Z",
+        "bank_account_id": "c8432e9a-f828-433a-83ed-31d47537d3d3"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "a7df3dd5-b943-4444-bd0e-f4324ba679d0",
+        "balance": 28684,
+        "balance_date": "2023-09-05T10:49:12.166Z",
+        "created_at": "2023-09-04T23:06:10.700Z",
+        "updated_at": "2023-09-05T17:59:21.837Z",
+        "bank_account_id": "6e9553c4-29d5-4386-aebd-a7e0bb081096"
+      },
+      {
+        "id": "6f515f99-e24e-4853-9586-805753ff3838",
+        "balance": 94987,
+        "balance_date": "2023-09-05T12:58:15.400Z",
+        "created_at": "2023-09-05T08:23:59.196Z",
+        "updated_at": "2023-09-04T23:38:14.591Z",
+        "bank_account_id": "6c00b7c2-7faa-4093-8115-ad98584ada69"
+      },
+      {
+        "id": "f06761a2-54e3-4dc1-b413-a410b237b73d",
+        "balance": 65773,
+        "balance_date": "2023-09-05T02:29:36.113Z",
+        "created_at": "2023-09-05T20:00:52.503Z",
+        "updated_at": "2023-09-05T04:56:24.817Z",
+        "bank_account_id": "c8432e9a-f828-433a-83ed-31d47537d3d3"
+      },
+      {
+        "id": "b2d16fe4-fca9-4604-bb5f-76ada28f533e",
+        "balance": 82673,
+        "balance_date": "2023-09-05T06:11:51.236Z",
+        "created_at": "2023-09-05T14:24:19.722Z",
+        "updated_at": "2023-09-05T10:07:15.281Z",
+        "bank_account_id": "149f18c7-9824-4417-a66f-32226aa2d64b"
+      },
+      {
+        "id": "f4808380-6053-412b-82d2-d3b011fb1daf",
+        "balance": 24154,
+        "balance_date": "2023-09-05T07:50:42.244Z",
+        "created_at": "2023-09-05T08:08:33.919Z",
+        "updated_at": "2023-09-05T06:37:27.876Z",
+        "bank_account_id": "149f18c7-9824-4417-a66f-32226aa2d64b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7ed94b47-6eab-4f45-9563-25eb3d8ab2ec",
+        "email": "Shyanne_Torp12@hotmail.com",
+        "firstName": "Lyda",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/89.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44e4334a-9e00-43c4-97dc-a78d7cdddf11",
+        "email": "Evans.Stoltenberg@gmail.com",
+        "firstName": "Wilber",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91619260",
+        "tenantId": null
+      },
+      {
+        "reference": "be21baed-fedc-4581-bcd4-ae304afa76eb",
+        "email": "Doris.Johns36@hotmail.com",
+        "firstName": "Jay",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/829272",
+        "tenantId": null
+      },
+      {
+        "reference": "3733cec3-f36c-4cbf-bf3e-46c05b9e7e40",
+        "email": "Tyrel_Kunde6@hotmail.com",
+        "firstName": "Enrico",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "539872dd-40f2-447b-a8de-6a4f970fbdf6",
+        "email": "Ewell38@yahoo.com",
+        "firstName": "Ludie",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88335354",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "27edab32-983d-4447-adbe-d4db05031dbf",
+        "created_at": "2023-09-05T19:35:46.669Z",
+        "updated_at": "2023-09-05T06:36:52.965Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "b11cfd79-848a-4da4-93c6-b89aeb8883a0",
+        "created_at": "2023-09-05T16:30:47.885Z",
+        "updated_at": "2023-09-05T03:11:44.314Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "c9761fd3-d4ea-4e6d-a18e-a423647c3eef",
+        "created_at": "2023-09-05T05:06:52.345Z",
+        "updated_at": "2023-09-05T10:47:34.114Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "a1b01dd8-bd48-462d-956e-97ca337728a5",
+        "created_at": "2023-09-05T14:16:22.903Z",
+        "updated_at": "2023-09-05T09:13:34.698Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "68569001-01a2-457f-9d67-26aa03c566bb",
+        "created_at": "2023-09-05T00:29:40.670Z",
+        "updated_at": "2023-09-05T06:07:31.897Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "3187212c-9e92-4c2d-8575-01500659d69a",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "username": "johndoe123",
+        "password": "P@ssw0rd",
+        "created_at": "2023-09-05T01:37:32.602Z",
+        "updated_at": "2023-09-05T09:49:09.809Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "9ea91ad2-7686-44c1-8ae3-e47d5c6b1712",
+        "bank_name": "Wells Fargo",
+        "account_number": "0987654321",
+        "username": "janedoe456",
+        "password": "Secur3P@ss",
+        "created_at": "2023-09-05T12:40:36.482Z",
+        "updated_at": "2023-09-05T16:07:22.839Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "1f5602eb-9fde-4678-9a01-84fe4189bb28",
+        "bank_name": "Chase Bank",
+        "account_number": "9876543210",
+        "username": "alexsmith789",
+        "password": "Str0ngP@ss",
+        "created_at": "2023-09-05T15:08:43.357Z",
+        "updated_at": "2023-09-05T09:12:45.168Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "4f938866-d47b-449c-89a6-76bb387fafd4",
+        "bank_name": "Citibank",
+        "account_number": "0123456789",
+        "username": "emilybrown012",
+        "password": "SafeP@ssw0rd",
+        "created_at": "2023-09-05T09:01:56.952Z",
+        "updated_at": "2023-09-05T17:16:01.972Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "e187deaa-0fa6-457b-a4f7-fc14cf466071",
+        "bank_name": "US Bank",
+        "account_number": "5678901234",
+        "username": "michaeltaylor345",
+        "password": "P@ssw0rd123",
+        "created_at": "2023-09-05T07:47:15.460Z",
+        "updated_at": "2023-09-05T07:09:11.040Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "7974a053-926e-4e33-8c99-9841bda47fb4",
+        "transaction_amount": 33798,
+        "transaction_date": "2023-09-05T08:20:18.419Z",
+        "created_at": "2023-09-05T05:52:48.924Z",
+        "updated_at": "2023-09-04T20:52:22.921Z",
+        "bank_account_id": "9ea91ad2-7686-44c1-8ae3-e47d5c6b1712"
+      },
+      {
+        "id": "f106b601-8bbe-4773-a6ff-37997c01c1b7",
+        "transaction_amount": 87693,
+        "transaction_date": "2023-09-05T07:12:08.535Z",
+        "created_at": "2023-09-05T14:03:33.407Z",
+        "updated_at": "2023-09-05T15:54:03.217Z",
+        "bank_account_id": "1f5602eb-9fde-4678-9a01-84fe4189bb28"
+      },
+      {
+        "id": "9d25f41d-9f67-4dcd-ad07-d9b1fd6f53bc",
+        "transaction_amount": 20063,
+        "transaction_date": "2023-09-05T12:06:13.551Z",
+        "created_at": "2023-09-05T17:47:00.747Z",
+        "updated_at": "2023-09-05T10:50:04.959Z",
+        "bank_account_id": "9ea91ad2-7686-44c1-8ae3-e47d5c6b1712"
+      },
+      {
+        "id": "42166a15-87f7-4125-b851-7ecb4197561a",
+        "transaction_amount": 64698,
+        "transaction_date": "2023-09-05T13:27:12.170Z",
+        "created_at": "2023-09-05T07:02:32.788Z",
+        "updated_at": "2023-09-05T01:50:56.414Z",
+        "bank_account_id": "9ea91ad2-7686-44c1-8ae3-e47d5c6b1712"
+      },
+      {
+        "id": "0a3d8c52-671e-4fe9-b4d1-b47292414643",
+        "transaction_amount": 39861,
+        "transaction_date": "2023-09-04T23:07:45.265Z",
+        "created_at": "2023-09-05T14:03:53.480Z",
+        "updated_at": "2023-09-05T08:10:58.973Z",
+        "bank_account_id": "9ea91ad2-7686-44c1-8ae3-e47d5c6b1712"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "056c264e-6684-4e1d-ad35-5a4b8dd03d5e",
+        "balance": 23211,
+        "balance_date": "2023-09-05T02:32:04.742Z",
+        "created_at": "2023-09-05T00:27:04.037Z",
+        "updated_at": "2023-09-05T07:07:50.796Z",
+        "bank_account_id": "9ea91ad2-7686-44c1-8ae3-e47d5c6b1712"
+      },
+      {
+        "id": "2c5a7cb4-77b3-4c5f-a8eb-f0a90dbb13cf",
+        "balance": 69105,
+        "balance_date": "2023-09-04T20:29:43.507Z",
+        "created_at": "2023-09-05T08:55:15.309Z",
+        "updated_at": "2023-09-05T17:58:07.329Z",
+        "bank_account_id": "1f5602eb-9fde-4678-9a01-84fe4189bb28"
+      },
+      {
+        "id": "92a0dd5f-0926-45d5-9ca6-47304362e4bb",
+        "balance": 14380,
+        "balance_date": "2023-09-04T21:15:13.476Z",
+        "created_at": "2023-09-04T23:32:06.544Z",
+        "updated_at": "2023-09-05T15:45:33.784Z",
+        "bank_account_id": "4f938866-d47b-449c-89a6-76bb387fafd4"
+      },
+      {
+        "id": "67a79017-29db-4d30-b8b9-9556ef30264b",
+        "balance": 89260,
+        "balance_date": "2023-09-05T17:27:47.694Z",
+        "created_at": "2023-09-05T03:39:11.973Z",
+        "updated_at": "2023-09-05T17:01:46.630Z",
+        "bank_account_id": "4f938866-d47b-449c-89a6-76bb387fafd4"
+      },
+      {
+        "id": "6024940a-0902-450f-bebe-e517d2f57b80",
+        "balance": 90334,
+        "balance_date": "2023-09-05T02:55:53.216Z",
+        "created_at": "2023-09-05T09:52:19.028Z",
+        "updated_at": "2023-09-05T17:34:45.666Z",
+        "bank_account_id": "1f5602eb-9fde-4678-9a01-84fe4189bb28"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "11c537f9-bbc7-4928-bf15-9cb39c769a61",
+        "email": "Leonard.Terry@yahoo.com",
+        "firstName": "Beverly",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4070151",
+        "tenantId": null
+      },
+      {
+        "reference": "1ef08e73-3e59-41c4-b3c4-5cad9ea732f8",
+        "email": "Laron.Kris@yahoo.com",
+        "firstName": "Orrin",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/905.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "820b6497-c0de-40c6-899e-05f9ea55c4f1",
+        "email": "Clotilde34@yahoo.com",
+        "firstName": "Jessie",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/121.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b1bdf80-5f2b-4ffb-9c0e-6f9fb3e7efc1",
+        "email": "Creola_Jacobson85@yahoo.com",
+        "firstName": "Mariah",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76119599",
+        "tenantId": null
+      },
+      {
+        "reference": "df409817-d15c-4a5b-badf-58bec57fc240",
+        "email": "Jared.Kling21@hotmail.com",
+        "firstName": "Rossie",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/35.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "b9f95c78-92ca-4d15-9c7c-c68a88012aff",
+        "created_at": "2023-09-04T20:31:56.942Z",
+        "updated_at": "2023-09-05T12:05:18.334Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "796f70d1-fc49-4203-9b60-469be6c0e67a",
+        "created_at": "2023-09-05T13:20:43.671Z",
+        "updated_at": "2023-09-05T00:26:36.072Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "0607f108-43b2-4db2-a5ac-c751f48e1a0b",
+        "created_at": "2023-09-05T03:32:44.972Z",
+        "updated_at": "2023-09-05T13:28:15.384Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "e163b7fe-9b0f-4042-8713-60ff1fdfbf51",
+        "created_at": "2023-09-04T21:43:49.382Z",
+        "updated_at": "2023-09-05T06:53:50.258Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "f765f7c9-93f2-48c5-b098-0dfde3220f19",
+        "created_at": "2023-09-05T13:25:57.413Z",
+        "updated_at": "2023-09-04T22:41:37.651Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "fcde8423-aa08-41be-9170-01895aef4748",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "username": "johndoe",
+        "password": "P@ssw0rd",
+        "created_at": "2023-09-05T17:01:00.928Z",
+        "updated_at": "2023-09-05T08:30:12.398Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "49de4177-7b59-490b-870d-316e8488ffe4",
+        "bank_name": "Wells Fargo",
+        "account_number": "0987654321",
+        "username": "janesmith",
+        "password": "Secure123",
+        "created_at": "2023-09-05T04:20:40.258Z",
+        "updated_at": "2023-09-05T08:43:11.716Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "22258d0b-7991-4869-af91-ceab0be55875",
+        "bank_name": "Chase Bank",
+        "account_number": "2468135790",
+        "username": "michaelbrown",
+        "password": "Password123",
+        "created_at": "2023-09-05T01:05:57.613Z",
+        "updated_at": "2023-09-05T15:28:25.707Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "9c09a8e0-79e8-49e5-b662-c03c01ef72d3",
+        "bank_name": "Citibank",
+        "account_number": "1357924680",
+        "username": "sarahjones",
+        "password": "SecretPass",
+        "created_at": "2023-09-05T11:06:57.247Z",
+        "updated_at": "2023-09-05T14:38:38.620Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "afc896ba-74c3-4e47-a2c5-19318d27d816",
+        "bank_name": "US Bank",
+        "account_number": "9876543210",
+        "username": "davidwilson",
+        "password": "MyPassword",
+        "created_at": "2023-09-05T07:17:05.816Z",
+        "updated_at": "2023-09-04T20:57:55.208Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "2051f435-2364-4703-b92b-533c3b6272f3",
+        "transaction_amount": 41539,
+        "transaction_date": "2023-09-05T14:25:12.218Z",
+        "created_at": "2023-09-05T12:00:10.303Z",
+        "updated_at": "2023-09-05T06:38:36.396Z",
+        "bank_account_id": "afc896ba-74c3-4e47-a2c5-19318d27d816"
+      },
+      {
+        "id": "01bd91b1-e695-4772-81b3-1412cf74dbe4",
+        "transaction_amount": 24899,
+        "transaction_date": "2023-09-05T16:43:25.599Z",
+        "created_at": "2023-09-05T14:08:57.993Z",
+        "updated_at": "2023-09-05T06:33:30.694Z",
+        "bank_account_id": "fcde8423-aa08-41be-9170-01895aef4748"
+      },
+      {
+        "id": "928f5fad-2091-4b55-949c-6bbf9dd2cfa2",
+        "transaction_amount": 63292,
+        "transaction_date": "2023-09-05T19:22:27.721Z",
+        "created_at": "2023-09-04T21:02:17.486Z",
+        "updated_at": "2023-09-05T03:59:52.077Z",
+        "bank_account_id": "fcde8423-aa08-41be-9170-01895aef4748"
+      },
+      {
+        "id": "c84b3730-7c08-4ed1-bb2b-79b6b433a96a",
+        "transaction_amount": 43411,
+        "transaction_date": "2023-09-05T05:02:07.685Z",
+        "created_at": "2023-09-05T00:01:40.035Z",
+        "updated_at": "2023-09-04T23:34:08.712Z",
+        "bank_account_id": "fcde8423-aa08-41be-9170-01895aef4748"
+      },
+      {
+        "id": "fd347724-b541-40da-80df-ed14fd4e6bec",
+        "transaction_amount": 23725,
+        "transaction_date": "2023-09-04T22:18:39.311Z",
+        "created_at": "2023-09-05T19:21:01.700Z",
+        "updated_at": "2023-09-05T05:24:47.189Z",
+        "bank_account_id": "9c09a8e0-79e8-49e5-b662-c03c01ef72d3"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "3400acf3-e74a-47ad-ab44-6ff3df5b83af",
+        "balance": 43293,
+        "balance_date": "2023-09-04T21:51:51.157Z",
+        "created_at": "2023-09-04T22:39:11.092Z",
+        "updated_at": "2023-09-05T14:25:09.661Z",
+        "bank_account_id": "afc896ba-74c3-4e47-a2c5-19318d27d816"
+      },
+      {
+        "id": "557de15a-843a-43e0-8577-280cd25015eb",
+        "balance": 81036,
+        "balance_date": "2023-09-05T02:04:51.933Z",
+        "created_at": "2023-09-05T14:42:45.651Z",
+        "updated_at": "2023-09-04T21:49:26.867Z",
+        "bank_account_id": "afc896ba-74c3-4e47-a2c5-19318d27d816"
+      },
+      {
+        "id": "a52308c0-743a-423b-9b2d-3d2ff16eba32",
+        "balance": 84511,
+        "balance_date": "2023-09-05T18:05:51.146Z",
+        "created_at": "2023-09-04T22:24:25.144Z",
+        "updated_at": "2023-09-05T00:48:40.177Z",
+        "bank_account_id": "49de4177-7b59-490b-870d-316e8488ffe4"
+      },
+      {
+        "id": "aca4d47c-8beb-452b-9400-3a4842e18c2f",
+        "balance": 49782,
+        "balance_date": "2023-09-05T11:21:48.369Z",
+        "created_at": "2023-09-05T01:10:19.873Z",
+        "updated_at": "2023-09-05T02:00:42.124Z",
+        "bank_account_id": "22258d0b-7991-4869-af91-ceab0be55875"
+      },
+      {
+        "id": "5104590e-eb06-4cfa-b65a-fc7cc0158741",
+        "balance": 97989,
+        "balance_date": "2023-09-05T11:31:39.666Z",
+        "created_at": "2023-09-05T10:45:48.290Z",
+        "updated_at": "2023-09-04T23:59:19.972Z",
+        "bank_account_id": "afc896ba-74c3-4e47-a2c5-19318d27d816"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9ab0dbdb-77a2-4cf5-b079-18d9639e403d",
+        "email": "Susanna51@gmail.com",
+        "firstName": "Lavinia",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17746744",
+        "tenantId": null
+      },
+      {
+        "reference": "93d417a5-8cee-44da-b3b4-9b52b53a7ddc",
+        "email": "Aurore_Nolan8@hotmail.com",
+        "firstName": "Adaline",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91505024",
+        "tenantId": null
+      },
+      {
+        "reference": "35bec36f-eb40-4837-a9e4-af15bf82d947",
+        "email": "Mina_Denesik96@gmail.com",
+        "firstName": "Madisen",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1196.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d65643a4-6aa7-4bfa-b516-064aac3eee01",
+        "email": "Lyla56@gmail.com",
+        "firstName": "Keira",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47323002",
+        "tenantId": null
+      },
+      {
+        "reference": "1f9bee52-a465-48c6-a311-cec54fa2a7aa",
+        "email": "Amelie.Gottlieb15@gmail.com",
+        "firstName": "Joan",
+        "lastName": "King-Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10633700",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "ad3c4c44-abc8-48a7-8e7a-bb9cc9e19f9f",
+        "created_at": "2023-09-05T14:01:41.759Z",
+        "updated_at": "2023-09-05T13:42:43.531Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "d4c8d478-fe68-4786-b8a9-694fbbafd836",
+        "created_at": "2023-09-05T13:05:57.182Z",
+        "updated_at": "2023-09-05T13:06:41.103Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "de5ea2a7-4aeb-4a64-b207-f4cc8084784e",
+        "created_at": "2023-09-05T08:13:44.101Z",
+        "updated_at": "2023-09-05T00:20:08.597Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "926b11f0-188e-48fe-9f34-0ede242eb649",
+        "created_at": "2023-09-05T09:02:06.608Z",
+        "updated_at": "2023-09-05T09:48:52.888Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "37e43dbc-08c2-46cf-8b5d-e7e270695125",
+        "created_at": "2023-09-05T04:51:11.392Z",
+        "updated_at": "2023-09-05T16:30:09.560Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "9b4b483f-cc51-4350-9277-ef66b9369f4f",
+        "bank_name": "ABC Bank",
+        "account_number": "1234567890",
+        "username": "john123",
+        "password": "Pass123",
+        "created_at": "2023-09-04T22:10:43.841Z",
+        "updated_at": "2023-09-04T23:17:47.839Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "2fb2f622-5e95-4c14-aeb1-bbe76355cbf4",
+        "bank_name": "XYZ Bank",
+        "account_number": "0987654321",
+        "username": "jane456",
+        "password": "Secure456",
+        "created_at": "2023-09-05T16:13:31.806Z",
+        "updated_at": "2023-09-04T22:39:47.322Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "6a65b16a-3e0f-4bf4-8566-f888e09b0c8b",
+        "bank_name": "First National Bank",
+        "account_number": "9876543210",
+        "username": "alex789",
+        "password": "Secret789",
+        "created_at": "2023-09-05T04:13:01.615Z",
+        "updated_at": "2023-09-05T03:36:07.612Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "992ac862-6ad1-411b-8a00-64ec09aae5be",
+        "bank_name": "Global Bank",
+        "account_number": "0123456789",
+        "username": "emily123",
+        "password": "Password123",
+        "created_at": "2023-09-05T19:04:50.364Z",
+        "updated_at": "2023-09-05T19:15:20.722Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "349cce37-194e-4e68-888e-04a36ade7821",
+        "bank_name": "Mega Bank",
+        "account_number": "5432109876",
+        "username": "michael456",
+        "password": "Secure456",
+        "created_at": "2023-09-05T08:52:42.301Z",
+        "updated_at": "2023-09-05T00:52:45.724Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "ce662c4a-86ef-403c-8d71-24641e103f1d",
+        "transaction_amount": 38935,
+        "transaction_date": "2023-09-05T06:53:56.579Z",
+        "created_at": "2023-09-05T15:36:13.875Z",
+        "updated_at": "2023-09-05T17:16:23.293Z",
+        "bank_account_id": "992ac862-6ad1-411b-8a00-64ec09aae5be"
+      },
+      {
+        "id": "01959718-7041-47fe-b776-ecfaf56ea45b",
+        "transaction_amount": 82821,
+        "transaction_date": "2023-09-05T17:27:32.578Z",
+        "created_at": "2023-09-05T18:49:39.771Z",
+        "updated_at": "2023-09-05T01:46:15.933Z",
+        "bank_account_id": "2fb2f622-5e95-4c14-aeb1-bbe76355cbf4"
+      },
+      {
+        "id": "41dea1e5-609b-4102-864a-5c60bb696f71",
+        "transaction_amount": 97032,
+        "transaction_date": "2023-09-04T23:46:29.998Z",
+        "created_at": "2023-09-05T04:03:44.511Z",
+        "updated_at": "2023-09-05T05:01:46.351Z",
+        "bank_account_id": "6a65b16a-3e0f-4bf4-8566-f888e09b0c8b"
+      },
+      {
+        "id": "97c7b1d7-5d59-4796-b8da-060a02909ae6",
+        "transaction_amount": 33652,
+        "transaction_date": "2023-09-05T09:10:45.516Z",
+        "created_at": "2023-09-05T02:28:40.644Z",
+        "updated_at": "2023-09-05T11:34:38.100Z",
+        "bank_account_id": "349cce37-194e-4e68-888e-04a36ade7821"
+      },
+      {
+        "id": "6fdc4e28-8e74-480a-a4cc-88f6e8d43424",
+        "transaction_amount": 1896,
+        "transaction_date": "2023-09-05T10:11:45.454Z",
+        "created_at": "2023-09-04T22:07:59.982Z",
+        "updated_at": "2023-09-05T19:36:08.751Z",
+        "bank_account_id": "349cce37-194e-4e68-888e-04a36ade7821"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "86613a0a-f2a1-4591-ad9e-513faba60ac1",
+        "balance": 28157,
+        "balance_date": "2023-09-05T03:21:14.252Z",
+        "created_at": "2023-09-04T22:30:00.341Z",
+        "updated_at": "2023-09-05T05:17:23.798Z",
+        "bank_account_id": "6a65b16a-3e0f-4bf4-8566-f888e09b0c8b"
+      },
+      {
+        "id": "ef0d624f-63a7-49a4-8b59-8766dfa08730",
+        "balance": 49521,
+        "balance_date": "2023-09-05T01:33:08.337Z",
+        "created_at": "2023-09-05T17:44:37.108Z",
+        "updated_at": "2023-09-05T06:01:37.993Z",
+        "bank_account_id": "6a65b16a-3e0f-4bf4-8566-f888e09b0c8b"
+      },
+      {
+        "id": "49e918e3-05ea-42de-837c-ad7b38ecfd59",
+        "balance": 66530,
+        "balance_date": "2023-09-05T14:56:16.665Z",
+        "created_at": "2023-09-05T02:25:52.200Z",
+        "updated_at": "2023-09-05T15:18:17.410Z",
+        "bank_account_id": "6a65b16a-3e0f-4bf4-8566-f888e09b0c8b"
+      },
+      {
+        "id": "0f3faf8c-f62e-4870-9274-b08c1888c5f0",
+        "balance": 19086,
+        "balance_date": "2023-09-05T07:23:39.815Z",
+        "created_at": "2023-09-05T01:32:02.223Z",
+        "updated_at": "2023-09-05T04:45:23.077Z",
+        "bank_account_id": "9b4b483f-cc51-4350-9277-ef66b9369f4f"
+      },
+      {
+        "id": "5373ed1a-8e5b-483d-9eff-9ab913787ec9",
+        "balance": 9635,
+        "balance_date": "2023-09-05T02:50:17.853Z",
+        "created_at": "2023-09-05T16:12:51.353Z",
+        "updated_at": "2023-09-05T07:43:07.060Z",
+        "bank_account_id": "9b4b483f-cc51-4350-9277-ef66b9369f4f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e611e5fa-a6bd-4ed2-882f-47bba05135da",
+        "email": "Jaron82@yahoo.com",
+        "firstName": "Ed",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de76934f-9515-4ec8-88d6-c6bba4663255",
+        "email": "Norval66@gmail.com",
+        "firstName": "Erling",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13602486",
+        "tenantId": null
+      },
+      {
+        "reference": "f145d7fc-1f29-4de3-aa61-46bf0fc8ceff",
+        "email": "Alivia.Jakubowski@yahoo.com",
+        "firstName": "Marilie",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51441228",
+        "tenantId": null
+      },
+      {
+        "reference": "b1a43ac8-c558-4e00-9c74-e9f700ffbca1",
+        "email": "Maegan9@hotmail.com",
+        "firstName": "Brandy",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c1facd0-29cd-455d-bbf8-c60a83a81aba",
+        "email": "Colton_Maggio@yahoo.com",
+        "firstName": "Destinee",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26816850",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "922da0e9-a334-4bf0-8a74-ea69ff4e56bb",
+        "created_at": "2023-09-05T04:03:19.590Z",
+        "updated_at": "2023-09-05T09:44:09.066Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "eb3aa468-f39e-42fb-ac5e-addbc330b957",
+        "created_at": "2023-09-05T18:59:35.090Z",
+        "updated_at": "2023-09-05T10:41:20.241Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "6772cd51-6c07-4369-a949-092bb46fd968",
+        "created_at": "2023-09-04T21:11:41.541Z",
+        "updated_at": "2023-09-05T19:33:52.848Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "2677ddb5-e404-4edb-b016-b44a16c18dd8",
+        "created_at": "2023-09-05T19:49:13.798Z",
+        "updated_at": "2023-09-05T12:42:23.572Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "4fbf6d21-a4e4-4f92-af9b-aaa317ff35a6",
+        "created_at": "2023-09-05T11:33:21.038Z",
+        "updated_at": "2023-09-05T19:36:47.892Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "8332a6d2-0461-44c8-afb6-f24c77b20beb",
+        "bank_name": "ABC Bank",
+        "account_number": "1234567890",
+        "username": "user1",
+        "password": "p@ssw0rd1",
+        "created_at": "2023-09-04T21:28:46.416Z",
+        "updated_at": "2023-09-04T21:36:56.431Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "266a551a-daee-4f0f-84d9-8b715b0bf5e2",
+        "bank_name": "XYZ Bank",
+        "account_number": "0987654321",
+        "username": "user2",
+        "password": "p@ssw0rd2",
+        "created_at": "2023-09-05T19:07:44.209Z",
+        "updated_at": "2023-09-04T22:05:32.735Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "10248ecb-4c7b-4144-965f-2480221c8f85",
+        "bank_name": "First National Bank",
+        "account_number": "2468135790",
+        "username": "user3",
+        "password": "p@ssw0rd3",
+        "created_at": "2023-09-05T18:49:13.404Z",
+        "updated_at": "2023-09-05T11:27:43.499Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "463a2e6e-11d6-420c-af8c-fe7927431332",
+        "bank_name": "Global Bank",
+        "account_number": "1357924680",
+        "username": "user4",
+        "password": "p@ssw0rd4",
+        "created_at": "2023-09-05T06:51:39.112Z",
+        "updated_at": "2023-09-05T13:11:55.442Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "ecf71517-4504-4d1c-b77e-09a07e47d67b",
+        "bank_name": "Mega Bank",
+        "account_number": "9876543210",
+        "username": "user5",
+        "password": "p@ssw0rd5",
+        "created_at": "2023-09-05T01:39:58.695Z",
+        "updated_at": "2023-09-04T23:14:28.584Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "65812050-72e1-4e4a-9f4f-e78b0bc7885b",
+        "transaction_amount": 90616,
+        "transaction_date": "2023-09-05T05:43:38.473Z",
+        "created_at": "2023-09-05T19:13:15.859Z",
+        "updated_at": "2023-09-05T16:46:32.578Z",
+        "bank_account_id": "8332a6d2-0461-44c8-afb6-f24c77b20beb"
+      },
+      {
+        "id": "4f11b6bd-7aa7-45bc-b984-ee4c7ff1742f",
+        "transaction_amount": 9408,
+        "transaction_date": "2023-09-05T01:50:39.028Z",
+        "created_at": "2023-09-05T16:47:41.662Z",
+        "updated_at": "2023-09-05T02:20:35.929Z",
+        "bank_account_id": "ecf71517-4504-4d1c-b77e-09a07e47d67b"
+      },
+      {
+        "id": "4d6c7d95-26ba-452f-ab67-b95fb7d827d0",
+        "transaction_amount": 54096,
+        "transaction_date": "2023-09-05T17:47:57.971Z",
+        "created_at": "2023-09-05T09:11:50.591Z",
+        "updated_at": "2023-09-05T19:57:08.208Z",
+        "bank_account_id": "8332a6d2-0461-44c8-afb6-f24c77b20beb"
+      },
+      {
+        "id": "9d372bd3-3501-402d-b710-c522955733d2",
+        "transaction_amount": 23294,
+        "transaction_date": "2023-09-05T00:55:51.307Z",
+        "created_at": "2023-09-05T03:33:05.985Z",
+        "updated_at": "2023-09-05T12:02:57.772Z",
+        "bank_account_id": "463a2e6e-11d6-420c-af8c-fe7927431332"
+      },
+      {
+        "id": "bf8da6c1-aa9d-4225-818e-1a6de3357b18",
+        "transaction_amount": 87210,
+        "transaction_date": "2023-09-05T16:05:02.222Z",
+        "created_at": "2023-09-05T04:45:30.713Z",
+        "updated_at": "2023-09-05T12:45:04.749Z",
+        "bank_account_id": "ecf71517-4504-4d1c-b77e-09a07e47d67b"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "d91af40c-dfed-4bc2-b323-348a6dc38752",
+        "balance": 81834,
+        "balance_date": "2023-09-05T17:33:40.744Z",
+        "created_at": "2023-09-04T23:05:36.865Z",
+        "updated_at": "2023-09-05T04:06:14.275Z",
+        "bank_account_id": "266a551a-daee-4f0f-84d9-8b715b0bf5e2"
+      },
+      {
+        "id": "cb2eff24-672c-4d98-875b-fd9824439d7c",
+        "balance": 47738,
+        "balance_date": "2023-09-04T23:20:40.108Z",
+        "created_at": "2023-09-05T12:42:34.398Z",
+        "updated_at": "2023-09-04T21:13:54.358Z",
+        "bank_account_id": "463a2e6e-11d6-420c-af8c-fe7927431332"
+      },
+      {
+        "id": "e73a5603-1232-4c46-ac23-10bdfdca7446",
+        "balance": 56899,
+        "balance_date": "2023-09-05T11:12:40.789Z",
+        "created_at": "2023-09-05T07:24:20.736Z",
+        "updated_at": "2023-09-04T22:27:37.190Z",
+        "bank_account_id": "8332a6d2-0461-44c8-afb6-f24c77b20beb"
+      },
+      {
+        "id": "53e25e79-508a-4921-8511-c8772dd7196b",
+        "balance": 11215,
+        "balance_date": "2023-09-05T13:04:12.258Z",
+        "created_at": "2023-09-05T06:43:24.162Z",
+        "updated_at": "2023-09-05T11:00:38.258Z",
+        "bank_account_id": "463a2e6e-11d6-420c-af8c-fe7927431332"
+      },
+      {
+        "id": "ed55e7ba-af15-48f2-b230-cd497c7f48ac",
+        "balance": 87817,
+        "balance_date": "2023-09-05T15:22:11.798Z",
+        "created_at": "2023-09-05T07:50:02.495Z",
+        "updated_at": "2023-09-05T11:36:59.803Z",
+        "bank_account_id": "463a2e6e-11d6-420c-af8c-fe7927431332"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "488f0e84-dc46-459e-a1d8-a55a581d22f3",
+        "email": "Roslyn_Erdman@gmail.com",
+        "firstName": "Conor",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55773190",
+        "tenantId": null
+      },
+      {
+        "reference": "5f289fb1-462c-4857-a08e-c0df2aa0ff98",
+        "email": "Weldon_Runolfsdottir36@gmail.com",
+        "firstName": "Gust",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23105359",
+        "tenantId": null
+      },
+      {
+        "reference": "4c0408f8-e804-4fca-957e-3e3ef95130f3",
+        "email": "Nikko_Hilll29@yahoo.com",
+        "firstName": "Jean",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/275.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3d8db3c4-2600-446d-9883-1186b2b39f44",
+        "email": "Katelyn71@hotmail.com",
+        "firstName": "Janelle",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23669671",
+        "tenantId": null
+      },
+      {
+        "reference": "cef93634-c656-443b-966a-b40400934a2f",
+        "email": "Shakira_Stehr@gmail.com",
+        "firstName": "Lucius",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1098.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "1e94d3a6-cb33-416b-93fa-cebd47db1d85",
+        "created_at": "2023-09-04T23:11:08.030Z",
+        "updated_at": "2023-09-04T23:03:55.474Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "b324a5b5-e5f0-4277-95fd-d96867aec3a0",
+        "created_at": "2023-09-05T15:28:18.204Z",
+        "updated_at": "2023-09-05T18:01:27.855Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "efad1033-e668-4086-a6fd-b86b3a1ed3ba",
+        "created_at": "2023-09-05T19:03:02.619Z",
+        "updated_at": "2023-09-05T13:27:20.106Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "e0290f94-b0e7-4fce-8858-eac9ad02e59f",
+        "created_at": "2023-09-05T01:33:12.301Z",
+        "updated_at": "2023-09-05T05:42:55.369Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "9c2a73f0-4b26-4a2d-b5fc-e52cc3a05353",
+        "created_at": "2023-09-05T11:34:08.920Z",
+        "updated_at": "2023-09-05T10:37:36.530Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "42039050-f630-4d51-92e2-98ce53be8621",
+        "bank_name": "ABC Bank",
+        "account_number": "1234567890",
+        "username": "john.doe",
+        "password": "P@ssw0rd",
+        "created_at": "2023-09-05T07:23:20.977Z",
+        "updated_at": "2023-09-04T23:41:12.857Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "383cd26a-6a8b-49e5-909f-120db5f7c901",
+        "bank_name": "XYZ Bank",
+        "account_number": "0987654321",
+        "username": "jane.smith",
+        "password": "Secure123",
+        "created_at": "2023-09-05T12:08:47.339Z",
+        "updated_at": "2023-09-05T15:20:11.845Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "08dafa4d-f7e8-4963-aeb6-7f1d10d4fc03",
+        "bank_name": "PQR Bank",
+        "account_number": "2468135790",
+        "username": "michael.brown",
+        "password": "Secret!23",
+        "created_at": "2023-09-05T01:37:16.217Z",
+        "updated_at": "2023-09-04T23:22:01.598Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "f6cce852-9bd9-4527-842a-31bdd2d850f3",
+        "bank_name": "DEF Bank",
+        "account_number": "1357924680",
+        "username": "sarah.jones",
+        "password": "Password123",
+        "created_at": "2023-09-05T05:59:20.455Z",
+        "updated_at": "2023-09-05T07:34:04.246Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "466fbb56-9227-4c0f-af01-5f8c6f7f9fb9",
+        "bank_name": "GHI Bank",
+        "account_number": "9876543210",
+        "username": "david.wilson",
+        "password": "StrongPass",
+        "created_at": "2023-09-05T09:15:06.145Z",
+        "updated_at": "2023-09-05T11:54:12.066Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "8cf2a5e5-5c79-40b4-bc03-cca5d8954986",
+        "transaction_amount": 5508,
+        "transaction_date": "2023-09-04T20:45:02.040Z",
+        "created_at": "2023-09-05T11:28:33.732Z",
+        "updated_at": "2023-09-04T21:39:32.047Z",
+        "bank_account_id": "42039050-f630-4d51-92e2-98ce53be8621"
+      },
+      {
+        "id": "a26381e3-04bf-4c5e-8323-d8f8afc02bee",
+        "transaction_amount": 78115,
+        "transaction_date": "2023-09-05T00:25:55.059Z",
+        "created_at": "2023-09-05T01:05:08.415Z",
+        "updated_at": "2023-09-05T06:21:45.664Z",
+        "bank_account_id": "f6cce852-9bd9-4527-842a-31bdd2d850f3"
+      },
+      {
+        "id": "f4fa0489-312c-447d-baac-7ab4aa93f8b3",
+        "transaction_amount": 49631,
+        "transaction_date": "2023-09-05T13:29:28.618Z",
+        "created_at": "2023-09-05T08:05:20.019Z",
+        "updated_at": "2023-09-04T20:50:42.754Z",
+        "bank_account_id": "466fbb56-9227-4c0f-af01-5f8c6f7f9fb9"
+      },
+      {
+        "id": "9b82a68e-ebbb-4256-a685-cfa395f8e98b",
+        "transaction_amount": 87009,
+        "transaction_date": "2023-09-05T13:13:34.513Z",
+        "created_at": "2023-09-05T04:32:02.826Z",
+        "updated_at": "2023-09-05T07:54:27.957Z",
+        "bank_account_id": "08dafa4d-f7e8-4963-aeb6-7f1d10d4fc03"
+      },
+      {
+        "id": "467e43d7-4a48-4a58-abc9-e1773e48d57e",
+        "transaction_amount": 33839,
+        "transaction_date": "2023-09-05T00:50:48.964Z",
+        "created_at": "2023-09-05T09:40:13.934Z",
+        "updated_at": "2023-09-04T23:18:10.526Z",
+        "bank_account_id": "383cd26a-6a8b-49e5-909f-120db5f7c901"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "3566a500-51b6-4bf3-8fe6-7645b116d9f4",
+        "balance": 49165,
+        "balance_date": "2023-09-05T10:14:16.441Z",
+        "created_at": "2023-09-05T19:35:05.143Z",
+        "updated_at": "2023-09-05T17:45:11.233Z",
+        "bank_account_id": "383cd26a-6a8b-49e5-909f-120db5f7c901"
+      },
+      {
+        "id": "5ed76912-5491-4bb9-9df2-fcb6fb02d9a5",
+        "balance": 75751,
+        "balance_date": "2023-09-05T12:39:29.710Z",
+        "created_at": "2023-09-04T21:11:52.818Z",
+        "updated_at": "2023-09-05T01:29:22.787Z",
+        "bank_account_id": "08dafa4d-f7e8-4963-aeb6-7f1d10d4fc03"
+      },
+      {
+        "id": "d0560761-ceac-4211-9f19-9bdf73cb275e",
+        "balance": 3326,
+        "balance_date": "2023-09-05T12:23:05.293Z",
+        "created_at": "2023-09-05T01:28:29.367Z",
+        "updated_at": "2023-09-05T17:15:47.026Z",
+        "bank_account_id": "08dafa4d-f7e8-4963-aeb6-7f1d10d4fc03"
+      },
+      {
+        "id": "b461e214-4f7d-4718-a081-c12d4b7b03fe",
+        "balance": 18766,
+        "balance_date": "2023-09-05T03:28:07.499Z",
+        "created_at": "2023-09-05T04:27:58.688Z",
+        "updated_at": "2023-09-05T03:42:32.903Z",
+        "bank_account_id": "383cd26a-6a8b-49e5-909f-120db5f7c901"
+      },
+      {
+        "id": "4c485dd2-77b6-4e34-b613-844499923eed",
+        "balance": 151,
+        "balance_date": "2023-09-05T04:57:49.587Z",
+        "created_at": "2023-09-05T02:49:19.038Z",
+        "updated_at": "2023-09-05T06:53:04.051Z",
+        "bank_account_id": "466fbb56-9227-4c0f-af01-5f8c6f7f9fb9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3bbb86e0-c14d-4879-8896-6bb06d34c208",
+        "email": "Declan39@hotmail.com",
+        "firstName": "Kaci",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1236.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ff42dea6-99a4-4981-b32a-cb327f573571",
+        "email": "Art.Jacobson-Hilpert92@yahoo.com",
+        "firstName": "Dusty",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/824.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fd0110e-88ef-422f-90a2-3a1eccb77397",
+        "email": "Arturo62@yahoo.com",
+        "firstName": "Myrtle",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/473.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e00fbc1a-e823-4e51-817e-8d69ce8f3ca6",
+        "email": "Cecil.Wiza@hotmail.com",
+        "firstName": "Carlos",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1059.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0e12deee-506c-4465-ad2c-9c569f525ac7",
+        "email": "Ignacio.Hartmann22@gmail.com",
+        "firstName": "Guadalupe",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53466516",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "95f29c0b-d7dc-443e-8ca8-4a7bcb0fa751",
+        "created_at": "2023-09-05T18:46:42.309Z",
+        "updated_at": "2023-09-05T05:20:22.179Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "c9221fe5-4af4-4d7e-a501-f4971aa2d863",
+        "created_at": "2023-09-05T05:39:26.180Z",
+        "updated_at": "2023-09-05T07:07:53.804Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "088271aa-4d9f-4d15-a71e-1bbfbc6398de",
+        "created_at": "2023-09-05T11:36:12.677Z",
+        "updated_at": "2023-09-05T18:16:41.318Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "332035ab-1c6c-434c-9ccc-ab4a92d5ee7b",
+        "created_at": "2023-09-05T04:35:06.288Z",
+        "updated_at": "2023-09-04T20:30:39.375Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "80248f94-7d37-41d3-b2de-0c5ff0613357",
+        "created_at": "2023-09-05T08:30:09.565Z",
+        "updated_at": "2023-09-05T01:56:22.267Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "c66bade3-7568-43f3-af72-07adf176efc8",
+        "bank_name": "ABC Bank",
+        "account_number": "1234567890",
+        "username": "john_doe",
+        "password": "p@ssw0rd",
+        "created_at": "2023-09-05T12:17:57.527Z",
+        "updated_at": "2023-09-05T06:18:57.705Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "284a007b-98ff-40e3-bcbc-29293bb9e41e",
+        "bank_name": "XYZ Bank",
+        "account_number": "0987654321",
+        "username": "jane_smith",
+        "password": "secure123",
+        "created_at": "2023-09-05T01:00:39.148Z",
+        "updated_at": "2023-09-05T09:52:48.989Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "b2dd3f6a-dde2-4bac-a8cd-627dec8eb5a1",
+        "bank_name": "First National Bank",
+        "account_number": "2468135790",
+        "username": "michael_brown",
+        "password": "mysecretpassword",
+        "created_at": "2023-09-04T21:23:40.384Z",
+        "updated_at": "2023-09-05T01:58:50.210Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "855bcde2-1774-4efc-afda-63dbd4678892",
+        "bank_name": "Global Trust Bank",
+        "account_number": "1357924680",
+        "username": "sarah_jones",
+        "password": "password123",
+        "created_at": "2023-09-05T04:10:09.744Z",
+        "updated_at": "2023-09-05T17:13:53.799Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "7746e302-493d-4f9c-8742-26eb436dbe67",
+        "bank_name": "Secure Savings",
+        "account_number": "9876543210",
+        "username": "david_wilson",
+        "password": "strongPassword",
+        "created_at": "2023-09-04T20:37:24.275Z",
+        "updated_at": "2023-09-05T16:25:33.119Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "8422dc64-ba3a-41bb-8adb-2cf46f516d4f",
+        "transaction_amount": 34084,
+        "transaction_date": "2023-09-05T04:28:19.373Z",
+        "created_at": "2023-09-05T16:30:49.639Z",
+        "updated_at": "2023-09-05T15:09:08.320Z",
+        "bank_account_id": "b2dd3f6a-dde2-4bac-a8cd-627dec8eb5a1"
+      },
+      {
+        "id": "8dc59173-d9a0-4475-b9c5-4cacdd73fe13",
+        "transaction_amount": 97520,
+        "transaction_date": "2023-09-04T21:31:21.745Z",
+        "created_at": "2023-09-05T20:04:55.166Z",
+        "updated_at": "2023-09-05T03:13:18.909Z",
+        "bank_account_id": "855bcde2-1774-4efc-afda-63dbd4678892"
+      },
+      {
+        "id": "d52198db-260d-4d67-99d4-4fa75583fcb0",
+        "transaction_amount": 90429,
+        "transaction_date": "2023-09-05T19:53:39.405Z",
+        "created_at": "2023-09-05T19:21:12.066Z",
+        "updated_at": "2023-09-05T17:09:44.182Z",
+        "bank_account_id": "855bcde2-1774-4efc-afda-63dbd4678892"
+      },
+      {
+        "id": "a2ad6208-89ac-4e06-8022-add6e88b91bc",
+        "transaction_amount": 13515,
+        "transaction_date": "2023-09-05T14:26:42.150Z",
+        "created_at": "2023-09-04T21:27:03.590Z",
+        "updated_at": "2023-09-05T07:53:37.123Z",
+        "bank_account_id": "855bcde2-1774-4efc-afda-63dbd4678892"
+      },
+      {
+        "id": "494eedeb-30f2-4918-a4c8-4d1b769cb349",
+        "transaction_amount": 46398,
+        "transaction_date": "2023-09-05T04:28:59.033Z",
+        "created_at": "2023-09-05T02:17:47.779Z",
+        "updated_at": "2023-09-04T20:50:39.619Z",
+        "bank_account_id": "b2dd3f6a-dde2-4bac-a8cd-627dec8eb5a1"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "abe7f065-48cc-4037-9555-2838faca02a9",
+        "balance": 98782,
+        "balance_date": "2023-09-04T23:26:25.509Z",
+        "created_at": "2023-09-05T09:22:47.513Z",
+        "updated_at": "2023-09-04T22:10:19.863Z",
+        "bank_account_id": "284a007b-98ff-40e3-bcbc-29293bb9e41e"
+      },
+      {
+        "id": "f1750b03-1371-49dc-b071-ac7006a39356",
+        "balance": 16112,
+        "balance_date": "2023-09-05T04:56:34.128Z",
+        "created_at": "2023-09-05T06:56:01.208Z",
+        "updated_at": "2023-09-05T11:45:01.200Z",
+        "bank_account_id": "b2dd3f6a-dde2-4bac-a8cd-627dec8eb5a1"
+      },
+      {
+        "id": "903b8315-7ac6-4fdb-b974-edc7df4b2996",
+        "balance": 10542,
+        "balance_date": "2023-09-04T21:50:59.298Z",
+        "created_at": "2023-09-05T19:47:39.572Z",
+        "updated_at": "2023-09-05T00:12:46.614Z",
+        "bank_account_id": "b2dd3f6a-dde2-4bac-a8cd-627dec8eb5a1"
+      },
+      {
+        "id": "29e76e25-0ade-4c23-8643-706ced59a9f2",
+        "balance": 10921,
+        "balance_date": "2023-09-05T19:08:22.661Z",
+        "created_at": "2023-09-05T08:13:43.930Z",
+        "updated_at": "2023-09-05T17:48:49.876Z",
+        "bank_account_id": "855bcde2-1774-4efc-afda-63dbd4678892"
+      },
+      {
+        "id": "416a3ecc-481c-4f39-9740-e5fa439f06e7",
+        "balance": 28763,
+        "balance_date": "2023-09-05T03:46:45.539Z",
+        "created_at": "2023-09-05T06:53:32.314Z",
+        "updated_at": "2023-09-05T09:58:57.956Z",
+        "bank_account_id": "b2dd3f6a-dde2-4bac-a8cd-627dec8eb5a1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7748daf8-0344-4977-b0ad-4d5c42d18c35",
+        "email": "Abelardo_Reichel@yahoo.com",
+        "firstName": "Sam",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f83a86ac-7605-4be3-a857-0c2a1668dbe9",
+        "email": "Davonte_Simonis@yahoo.com",
+        "firstName": "Dudley",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77748199",
+        "tenantId": null
+      },
+      {
+        "reference": "8c3dcd47-92de-4b34-9776-c9ca82bee970",
+        "email": "Melvin_Thompson@gmail.com",
+        "firstName": "Sophie",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/275.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d3b3124-cb0c-4769-bee1-8d8011b9f850",
+        "email": "Leonora56@gmail.com",
+        "firstName": "Madison",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/521.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe309cd5-cb04-4228-abf5-a72323c44234",
+        "email": "Josiane.Stanton@hotmail.com",
+        "firstName": "Jacklyn",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1951764",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_invitation": [
+      {
+        "id": "e4be6edc-09db-44f2-a1ef-720890006d2c",
+        "created_at": "2023-09-05T17:41:41.828Z",
+        "updated_at": "2023-09-05T03:33:22.202Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "55b5412b-1822-4725-b819-728c61da4b81",
+        "created_at": "2023-09-05T19:26:27.306Z",
+        "updated_at": "2023-09-04T23:53:17.331Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "d730dde5-9193-4b6d-acde-583bcb505566",
+        "created_at": "2023-09-05T13:41:31.037Z",
+        "updated_at": "2023-09-05T09:33:28.622Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "1f7bc50e-7df8-4de7-8782-95f1193765a0",
+        "created_at": "2023-09-05T03:44:47.019Z",
+        "updated_at": "2023-09-05T08:12:37.877Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "d43d0a63-df62-443a-b947-92fd08af6327",
+        "created_at": "2023-09-05T01:35:56.286Z",
+        "updated_at": "2023-09-05T03:22:27.131Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "6987db74-459f-4a9c-a9a7-8f3cbecfbd68",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "username": "john.doe",
+        "password": "Pass123",
+        "created_at": "2023-09-05T13:11:27.299Z",
+        "updated_at": "2023-09-05T08:18:25.791Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "9f313ca9-e7cc-4bd9-bae5-6b4465053e6b",
+        "bank_name": "Chase Bank",
+        "account_number": "0987654321",
+        "username": "jane.smith",
+        "password": "SecurePwd",
+        "created_at": "2023-09-05T08:18:36.683Z",
+        "updated_at": "2023-09-05T11:09:05.646Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "4ba5637a-e442-4b7b-a995-0b770d0e0aef",
+        "bank_name": "Wells Fargo",
+        "account_number": "2468135790",
+        "username": "michael.brown",
+        "password": "Bank123",
+        "created_at": "2023-09-05T16:09:11.888Z",
+        "updated_at": "2023-09-05T19:26:53.873Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "f5b4084a-9419-4df5-b7ca-012bca60bcfa",
+        "bank_name": "Citibank",
+        "account_number": "1357924680",
+        "username": "sarah.jones",
+        "password": "SecretPwd",
+        "created_at": "2023-09-05T07:38:52.459Z",
+        "updated_at": "2023-09-04T23:42:18.622Z",
+        "online_seller_id": "main_entity_pk"
+      },
+      {
+        "id": "868acf42-655c-43f1-a069-a80fbb6caed0",
+        "bank_name": "US Bank",
+        "account_number": "9876543210",
+        "username": "robert.wilson",
+        "password": "StrongPassword",
+        "created_at": "2023-09-05T14:50:31.051Z",
+        "updated_at": "2023-09-05T17:18:11.211Z",
+        "online_seller_id": "main_entity_pk"
+      }
+    ],
+    "mutation_data": [
+      {
+        "id": "aa688dc4-fe67-4ed2-8fac-07ba63f6c3cc",
+        "transaction_amount": 94932,
+        "transaction_date": "2023-09-05T07:27:50.738Z",
+        "created_at": "2023-09-05T14:53:31.919Z",
+        "updated_at": "2023-09-05T19:04:40.397Z",
+        "bank_account_id": "868acf42-655c-43f1-a069-a80fbb6caed0"
+      },
+      {
+        "id": "55e0aef8-8e84-4e09-b985-ca73defd8e87",
+        "transaction_amount": 58145,
+        "transaction_date": "2023-09-04T21:33:42.404Z",
+        "created_at": "2023-09-05T18:27:15.878Z",
+        "updated_at": "2023-09-05T04:24:29.798Z",
+        "bank_account_id": "f5b4084a-9419-4df5-b7ca-012bca60bcfa"
+      },
+      {
+        "id": "81198902-db7c-4cd3-86b1-35cdf8fc09db",
+        "transaction_amount": 6533,
+        "transaction_date": "2023-09-04T20:27:08.299Z",
+        "created_at": "2023-09-05T02:49:29.511Z",
+        "updated_at": "2023-09-04T20:36:36.197Z",
+        "bank_account_id": "868acf42-655c-43f1-a069-a80fbb6caed0"
+      },
+      {
+        "id": "67ad35ee-ddff-4962-b480-2203128e71d9",
+        "transaction_amount": 51503,
+        "transaction_date": "2023-09-05T09:50:22.324Z",
+        "created_at": "2023-09-05T09:47:30.250Z",
+        "updated_at": "2023-09-05T10:26:27.576Z",
+        "bank_account_id": "868acf42-655c-43f1-a069-a80fbb6caed0"
+      },
+      {
+        "id": "4e76178a-a5fd-4d66-aa2e-0b75b2597b68",
+        "transaction_amount": 98146,
+        "transaction_date": "2023-09-05T04:40:27.942Z",
+        "created_at": "2023-09-05T13:45:44.120Z",
+        "updated_at": "2023-09-05T08:37:22.231Z",
+        "bank_account_id": "9f313ca9-e7cc-4bd9-bae5-6b4465053e6b"
+      }
+    ],
+    "account_balance": [
+      {
+        "id": "ec642b8c-086b-43e1-8cbc-6d984578b5b2",
+        "balance": 35677,
+        "balance_date": "2023-09-04T22:00:32.281Z",
+        "created_at": "2023-09-05T07:41:14.178Z",
+        "updated_at": "2023-09-04T21:51:40.830Z",
+        "bank_account_id": "9f313ca9-e7cc-4bd9-bae5-6b4465053e6b"
+      },
+      {
+        "id": "d775b795-5b38-49ff-8be9-17bde5501a5a",
+        "balance": 31992,
+        "balance_date": "2023-09-05T15:46:20.856Z",
+        "created_at": "2023-09-05T14:39:42.609Z",
+        "updated_at": "2023-09-05T13:05:09.395Z",
+        "bank_account_id": "4ba5637a-e442-4b7b-a995-0b770d0e0aef"
+      },
+      {
+        "id": "3527e4d6-dcdf-42ca-9cee-8ca2778c336a",
+        "balance": 36444,
+        "balance_date": "2023-09-05T00:57:02.015Z",
+        "created_at": "2023-09-05T03:52:15.510Z",
+        "updated_at": "2023-09-05T08:31:50.519Z",
+        "bank_account_id": "6987db74-459f-4a9c-a9a7-8f3cbecfbd68"
+      },
+      {
+        "id": "7e92043c-54ae-49ea-b9a5-fdf8e742a39f",
+        "balance": 94365,
+        "balance_date": "2023-09-05T09:33:37.529Z",
+        "created_at": "2023-09-05T03:05:04.966Z",
+        "updated_at": "2023-09-05T10:54:27.382Z",
+        "bank_account_id": "f5b4084a-9419-4df5-b7ca-012bca60bcfa"
+      },
+      {
+        "id": "d139cddd-f2a2-41a8-9a5e-0bdbd96c3a53",
+        "balance": 71841,
+        "balance_date": "2023-09-05T15:12:33.840Z",
+        "created_at": "2023-09-05T17:25:15.133Z",
+        "updated_at": "2023-09-05T02:34:27.182Z",
+        "bank_account_id": "9f313ca9-e7cc-4bd9-bae5-6b4465053e6b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5089f060-7818-4265-8ef1-8baae6853ea7",
+        "email": "Rod49@hotmail.com",
+        "firstName": "Xavier",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54726883",
+        "tenantId": null
+      },
+      {
+        "reference": "bc702349-57a6-4f25-b47c-9d40f934b1c8",
+        "email": "Jose.Effertz@hotmail.com",
+        "firstName": "Aaliyah",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8364144",
+        "tenantId": null
+      },
+      {
+        "reference": "b349029f-4d1e-4e2f-940c-30f81d43368f",
+        "email": "Yessenia_Steuber25@yahoo.com",
+        "firstName": "Jack",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43253962",
+        "tenantId": null
+      },
+      {
+        "reference": "960e7584-4a39-4ac3-8b39-b2c6b3c16756",
+        "email": "Taylor_Glover@hotmail.com",
+        "firstName": "Ottis",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1177.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f278f12a-8042-43b0-a600-1103b51cd5b4",
+        "email": "Unique.Keebler3@yahoo.com",
+        "firstName": "Zula",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93089217",
+        "tenantId": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model account_balance {
+  id              String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  balance         Int
+  balance_date    DateTime     @db.Timestamp(6)
+  bank_account_id String       @db.Uuid
+  created_at      DateTime     @default(now()) @db.Timestamp(6)
+  updated_at      DateTime     @default(now()) @db.Timestamp(6)
+  bank_account    bank_account @relation(fields: [bank_account_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model bank_account {
+  id               String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  bank_name        String            @db.VarChar(255)
+  account_number   String            @db.VarChar(255)
+  username         String            @db.VarChar(255)
+  password         String            @db.VarChar(255)
+  online_seller_id String            @db.Uuid
+  created_at       DateTime          @default(now()) @db.Timestamp(6)
+  updated_at       DateTime          @default(now()) @db.Timestamp(6)
+  account_balance  account_balance[]
+  online_seller    online_seller     @relation(fields: [online_seller_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  mutation_data    mutation_data[]
+}
+
+model mutation_data {
+  id                 String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  transaction_id     String       @db.VarChar(255)
+  transaction_amount Int
+  transaction_date   DateTime     @db.Timestamp(6)
+  bank_account_id    String       @db.Uuid
+  created_at         DateTime     @default(now()) @db.Timestamp(6)
+  updated_at         DateTime     @default(now()) @db.Timestamp(6)
+  bank_account       bank_account @relation(fields: [bank_account_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model online_seller {
+  id              String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description     String?           @db.VarChar(255)
+  name            String            @db.VarChar(255)
+  created_at      DateTime          @default(now()) @db.Timestamp(6)
+  updated_at      DateTime          @default(now()) @db.Timestamp(6)
+  user_id         String            @db.Uuid
+  tenant_id       String            @db.VarChar(255)
+  bank_account    bank_account[]
+  user            user              @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user_invitation user_invitation[]
+}
+
+model user {
+  id                                                     String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email                                                  String            @unique @db.VarChar(255)
+  firstName                                              String?           @db.VarChar(255)
+  lastName                                               String?           @db.VarChar(255)
+  roq_user_id                                            String            @db.VarChar(255)
+  tenant_id                                              String            @db.VarChar(255)
+  created_at                                             DateTime          @default(now()) @db.Timestamp(6)
+  updated_at                                             DateTime          @default(now()) @db.Timestamp(6)
+  online_seller                                          online_seller[]
+  user_invitation_user_invitation_invited_user_idTouser  user_invitation[] @relation("user_invitation_invited_user_idTouser")
+  user_invitation_user_invitation_inviting_user_idTouser user_invitation[] @relation("user_invitation_inviting_user_idTouser")
+}
+
+model user_invitation {
+  id                                          String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  invited_user_id                             String        @db.Uuid
+  inviting_user_id                            String        @db.Uuid
+  online_seller_id                            String        @db.Uuid
+  created_at                                  DateTime      @default(now()) @db.Timestamp(6)
+  updated_at                                  DateTime      @default(now()) @db.Timestamp(6)
+  user_user_invitation_invited_user_idTouser  user          @relation("user_invitation_invited_user_idTouser", fields: [invited_user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user_user_invitation_inviting_user_idTouser user          @relation("user_invitation_inviting_user_idTouser", fields: [inviting_user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  online_seller                               online_seller @relation(fields: [online_seller_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
